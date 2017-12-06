@@ -1,16 +1,25 @@
 public class Hello {
-    private final String GREETING = "Hello";
-    private String word ;
+    private  String greeting = "Hello";
+    private String toWho;
 
     public Hello(String word) {
-        this.word = word;
+        this.toWho = word;
     }
 
-    public String getWord() {
-        return word;
+    public Hello() {
+        this.toWho = new String();
     }
 
-    public void setWord(String word) {
-        this.word = word;
+    public String getToWho() {
+        return toWho;
+    }
+
+    public void setToWho(String toWho) {
+        this.toWho = toWho;
+    }
+    
+    public void sayHello(){
+
+        System.out.println(greeting +" "+ toWho);
     }
 }
