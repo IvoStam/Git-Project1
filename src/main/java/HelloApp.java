@@ -2,7 +2,7 @@ public class HelloApp {
     public static void main(String[] args) {
         Hello hello1 = new Hello("World");
         Hello hello2 = new Hello();
-        hello2.setToWho("Gert");
+        hello2.setToWho("Ivo");
         Hello hello3 = new Hello();
 
         hello1.sayHello();
