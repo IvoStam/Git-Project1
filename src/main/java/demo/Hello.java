@@ -1,5 +1,7 @@
+package demo;
+
 public class Hello {
-    private  String greeting = "Hello";
+    private  String greeting = "demo.Hello";
     private String toWho;
 
     public Hello(String word) {
